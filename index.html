@@ -16,10 +16,10 @@
 <!--Navigation Bar-->
 
 <nav class="navbar navbar-default">
-	<div class="fullsize">
+	<div class="container-fluid">
   		<a class="navbar-header" href="index.html"><h1>Shannon Berry-Heller</h1></a>
       	<ul class="nav navbar-nav navbar-right">
-        	<li><a class="nav-link align-middle" href="index.html">About</a></li>
+        	<li><a class="nav-link" href="index.html">About</a></li>
         	<li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
         	<li><a class="nav-link" href="contact.html">Contact</a></li>
     	</ul>
@@ -28,43 +28,38 @@
 
 
 <!--Main Content-->
+  <div id="main-container" class="container">
+    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+		<div class="row">
+			<div class="col-md-9">
+				<h2>About Me</h2>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-9">
-			<h2>About Me</h2>
-
-		<img id="me" src="assets/images/profile.jpg"
-			style="width:200px;height:200px" align="left">
+					<img id="me" src="assets/images/profile.jpg" align="left">
 				
-			<p id="bio">With experience in project management, customer service, print and web development, Shannon Berry-Heller's dedication to detail stands out. </p>
-			<br>
-			<p>In her free time Shannon is a competitive rower, avid reader, and loves working with others.</p>
-	</article>
-</div>
-
-
+					<p id="bio">With experience in project management, customer service, print and web development, Shannon Berry-Heller's dedication to detail stands out. </p>
+					<br>
+					<p>In her free time Shannon is a competitive rower, avid reader, and loves working with others.</p>
+			</div>
+		</div>
+	</div>
+  </div>
 <!--Links-->
 
-<div class="col-lg-3 links">
-		<ul>
-			<li><h3>Connect with Me</h3><li>
-			<li><a href="http://github.com/Sberry5" target="_blank">
-			<img src="assets/images/Github.png" alt="Github" id="imagelinksize"></a></li>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+      <div id="connect">
+        <h3>Connect with Me</h3>
 
-			<li><a href="https://www.linkedin.com/in/shannon-berry-heller-7a720a65" target="_blank">
-			<img src="assets/images/Linkedin.png" alt="Linkedin" id="imagelinksize"></a></li>
-
-			<li><a href="http://stackexchange/com/users/1446776/sberry5" target="_blank">
-			<img src="assets/images/Stack.png" alt="Stack Overflow" id="imagelinksize"></a></li>
-		</ul>
-</div>
+        <a href="http://github.com/Sberry5"><img src="assets/images/Github.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/shannon-berry-heller-7a720a65"><img src="assets/images/Linkedin.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackexchange/com/users/1446776/sberry5"><img src="assets/images/Stack.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+  </div>
 
 
 <!--Footer-->
 <br>
 
-<div id="footer">
+<div class="container-fluid" id="footer">
 	<footer>
 	<p>&#9400 Copyright 2017 Shannon Berry-Heller</p>
 	</footer>
